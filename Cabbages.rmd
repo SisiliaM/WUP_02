@@ -35,6 +35,12 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+plot(VitC~Cult,data=veggy)
+```
+
+The middle 50% for c52 is greater than the middle 50% of c39. The box plot shows that both boxes would not touch each other if you tried to slide them over.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
